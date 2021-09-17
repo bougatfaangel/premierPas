@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+font-family: 'Roboto', sans-serif;
+margin :0px;
+padding:0px;
+}
+/*barre de navigation */
+nav{
+
+display:flex;
+flex-wrap:wrap;
+justify-content:space-between;
+padding:20px;
+background-color: #fff;
+position:sticky; /*blocage au top*/
+
+top:0;
+
+}
+ nav h1{
+	 
+	 font-size:20px;
+	 
+	 
+	 
+ }
+ nav .onglets{
+	 	 display : flex;
+	 flex-wrap:wrap;
+
+	 
+ }
+ nav .onglets p{
+	 font-size:17px;
+	 margin-right:10px;
+	 cursor: pointer;
+	
+ }
+ nav .onglets input {
+	 margin :8px 20 px;
+	 padding:15px;
+	 border-radius : 30px;
+	 border:none;
+	 outline:none;
+	 background-color: #f2f2f2;
+	 
+ }
+ 
+ /*header*/
+ 
+ header{
+	 display:flex;
+	 justify-content:center;
+	 align-items:center;
+		 flex-direction:column;
+	 
+	 
+ }
+ header h1{
+	 font-size:50px;
+	 max-width :500px;
+	 text-align:center;
+	 
+ }
+ header button{
+	 padding:15px;
+	 font-size:20px;
+	 border:none;
+	 border-radius:5px;
+	 outline:none;
+	 cursor:pointer;
+ }
+ /* section CARDS*/
+ .main{
+	 margin:20px;
+	 margin-top:80px;
+	 display:flex;
+	 flex-direction:column;
+	 justify-content:center;
+	 align-items:center;
+	 
+	 
+ }
+ .cards{
+	 display:flex;
+	 flex-wrap:wrap;
+	 
+	 
+ }
+ .cards .card{
+	 margin-right:20px;
+	 cursor:pointer;
+	 
+ }
+ .cards .card img{
+	 width:350px;
+ }
+ .cards .card .card-header
+ {
+	 display:flex;
+	 flex-wrap:wrap;
+	 justify-content:space-between;
+	 
+ }
+ .cards .card .card-body p{
+margin-top: -10px;	 
+ }
+.main .video iframe {
+border:none;
+border-radius:5px;
+width:100%;
+
+}
+
+
+footer  {
+	display:flex;
+	flex-wrap:wrap;
+
+justify-content:space-between;
+
+}
+@media screen and(max-width : 640px) {
+
+
+}
